@@ -1,16 +1,19 @@
 {
-  "name": "nexter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "polaris-example-nextjs",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Polaris example application using next.js",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next",
+    "build": "next build",
+    "server": "next start"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "next": "^9.4.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "@shopify/polaris": "^4.13.1",
+    "@shopify/polaris-icons": "^3.9.0",
+    "next": "^9.3.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
